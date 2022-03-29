@@ -54,6 +54,7 @@ h2,
 h3,
 h4,
 h5 {
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -63,6 +64,7 @@ h1{
 
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -114,6 +116,7 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+    
 }
 
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) ================*/

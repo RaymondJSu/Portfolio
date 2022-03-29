@@ -16,7 +16,6 @@ const index = () => {
       <Nav />
       <About />
       <Experience />
-
       <Portfolio />
       <Contact />
       <Footer />
@@ -27,4 +26,3 @@ const index = () => {
 }
 
 export default index
-//       <Services />
