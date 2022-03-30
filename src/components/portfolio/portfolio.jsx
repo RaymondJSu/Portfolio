@@ -1,49 +1,49 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/game_demonstration.png'
+import IMG2 from '../../assets/texas-hold-em-poker.png'
+import IMG3 from '../../assets/tic-tac-toe.png'
+// import IMG4 from '../../assets/portfolio4.jpg'
+// import IMG5 from '../../assets/portfolio5.png'
+// import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com'
+    title: 'Tetis-Battle',
+    github: 'https://github.com/axa000/tetris-battle'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com'
+    title: 'Texas-Holdem',
+    github: 'https://github.com/axa000/Texas-Holdem-using-python'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com'
+    title: 'Tic-Tac-Toe',
+    github: 'https://github.com/axa000/tic-tac-toe'
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com'
-  },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'This is a portfolio item title',
+  //   github: 'https://github.com'
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: 'This is a portfolio item title',
+  //   github: 'https://github.com'
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'This is a portfolio item title',
+  //   github: 'https://github.com'
+  // },
 ]
 
 

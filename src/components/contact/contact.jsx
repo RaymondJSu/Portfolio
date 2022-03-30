@@ -33,6 +33,7 @@ const contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <small>axa00000@uw.edu</small>
+            <br />
             <a href="mailto:axa00000@uw.edu">Send a Message</a>
           </article>
 
@@ -40,6 +41,7 @@ const contact = () => {
             <BsTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
             <small>+9087238580</small>
+            <br />
             <a href="https://t.me/MDFK8877">Send a Message</a>
           </article>
         </div>
