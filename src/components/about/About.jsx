@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/profile_about.jpg'
 import {BsAward} from 'react-icons/bs'
 import {FiUser} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -23,13 +23,13 @@ const About = () => {
           <article className="about__card">
             <BsAward className="about__icon" />
             <h5>Experience</h5>
-            <small>3+ Years Working</small>
+            <small>3+ Years coding</small>
           </article>
 
           <article className="about__card">
             <FiUser className="about__icon" />
-            <h5>Experience</h5>
-            <small>3+ Years Working</small>
+            <h5>Leadership</h5>
+            <small>Past President of Toastmasters Club</small>
           </article>
 
           <article className="about__card">
@@ -40,8 +40,10 @@ const About = () => {
         </div>
 
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ipsa laborum suscipit ex officia quis veniam fuga voluptas itaque provident aspernatur odit iusto quam eveniet, ad nulla accusamus quae numquam.
+      My name is Raymond. I am studying master’s degree of IM, at UW. Besides technical courses taught me how to code or design a complex system, management courses also taught me not only to design a product from a developer’s viewpoint, but also manager and customer’s viewpoint.
       </p>
+      <br />
+      <p>I am also enthusiastic to learn new technologies and incorporate with what I have learned from school. Keep learning and being curious always refreshes my mind with better solutions.</p>
 
       <a href="#contact" className="btn btn-primary"> Let us Talk!</a>
 

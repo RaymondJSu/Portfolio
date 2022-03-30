@@ -1,8 +1,27 @@
 import React from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
+import {BsTelegram} from 'react-icons/bs'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
+
 
 const contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ctoq6xk', 'template_jdz4lfr', form.current, '4LALjUO50lHSQxbOU')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    
+    e.target.reset()
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -18,14 +37,14 @@ const contact = () => {
           </article>
 
           <article className='contact__option'>
-            <MdOutlineEmail className='contact__option-icon'/>
+            <BsTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
             <small>+9087238580</small>
-            <a href="https://api.telegram.org/sendMessage?chat_id=719592907">Send a Message</a>
+            <a href="https://t.me/MDFK8877">Send a Message</a>
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required/>
           <input type="email" email = 'email' placeholder='Your Email' required/>
           <textarea name="message" rows = "7" placeholder='Your Message' required ></textarea>
