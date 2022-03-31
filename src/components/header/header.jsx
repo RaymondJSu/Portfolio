@@ -7,7 +7,7 @@ import ME from '../../assets/profile_pic.png'
 
 const header = () => {
   return (
-       <header>
+       <section>
         <div className="container header__container">
           <h5>Hello I am</h5>
           <h1>Raymond Su</h1>
@@ -21,7 +21,7 @@ const header = () => {
 
           <a href="#contact" className="scroll__down" >Scroll Down</a>
         </div>
-       </header>
+       </section>
   )
 }
 
