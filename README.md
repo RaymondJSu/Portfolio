@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Please visit the website if you are interested! [My website](http://students.washington.edu/axa00000)
+
+## How to deploy to UW Server
+Use putty connect to server. "public_html" is the directory where to deploy our website.
+
+Inside the directory, use git clone command to deploy the files.
+
 ## Available Scripts
 
 In the project directory, you can run:
