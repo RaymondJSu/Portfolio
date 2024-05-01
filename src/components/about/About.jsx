@@ -40,7 +40,7 @@ const About = () => {
         </div>
 
       <p>
-      My name is Raymond. I am studying master’s degree of IM, at UW. Besides technical courses taught me how to code or design a complex system, management courses also taught me not only to design a product from a developer’s viewpoint, but also manager and customer’s viewpoint.
+      My name is Raymond. I am now a proud holder of a master's degree in IM from UW. Besides technical courses taught me how to code or design a complex system, management courses also taught me not only to design a product from a developer’s viewpoint, but also manager and customer’s viewpoint.
       </p>
       <br />
       <p>I am also enthusiastic to learn new technologies and incorporate with what I have learned from school. Keep learning and being curious always refreshes my mind with better solutions.</p>
