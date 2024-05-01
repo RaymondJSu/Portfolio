@@ -1,6 +1,5 @@
 {
   "name": "react-portfolio-website",
-  "homepage": "http://students.washington.edu/raysu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
