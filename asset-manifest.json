@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.1e80f1f5.css",
+    "main.js": "/Portfolio/static/js/main.38f85e7a.js",
+    "static/media/profile_pic.png": "/Portfolio/static/media/profile_pic.5f9f82334a9d0b9f5efc.png",
+    "static/media/texas-hold-em-poker.png": "/Portfolio/static/media/texas-hold-em-poker.9d88ab0a6c8de6a785d4.png",
+    "static/media/profile_about.jpg": "/Portfolio/static/media/profile_about.a40fd16892c367b8118b.jpg",
+    "static/media/h-m.PNG": "/Portfolio/static/media/h-m.fba27c7a9f08d90e6ac8.PNG",
+    "static/media/Resume_Raymond_Su.pdf": "/Portfolio/static/media/Resume_Raymond_Su.787d82199f4a4daa7071.pdf",
+    "static/media/KOL.PNG": "/Portfolio/static/media/KOL.fd196fea6a0c73bf8404.PNG",
+    "static/media/game_demonstration.png": "/Portfolio/static/media/game_demonstration.8eb81e8453c45e060860.png",
+    "index.html": "/Portfolio/index.html",
+    "main.1e80f1f5.css.map": "/Portfolio/static/css/main.1e80f1f5.css.map",
+    "main.38f85e7a.js.map": "/Portfolio/static/js/main.38f85e7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e80f1f5.css",
+    "static/js/main.38f85e7a.js"
+  ]
+}
