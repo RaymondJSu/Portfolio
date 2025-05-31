@@ -40,10 +40,12 @@ const About = () => {
         </div>
 
       <p>
-      My name is Raymond. I am now a proud holder of a master’s degree in IM from UW. Besides technical courses taught me how to code or design a complex system, management courses also taught me not only to design a product from a developer’s viewpoint, but also manager and customer’s viewpoint.
+        My name is Raymond, and I’m currently working as a Software Developer at a FAANG company. I hold a Master’s degree in Information Management from the University of Washington, where I developed a strong foundation in both technical and management disciplines.
       </p>
       <br />
-      <p>I am also enthusiastic to learn new technologies and incorporate with what I have learned from school. Keep learning and being curious always refreshes my mind with better solutions.</p>
+      <p>
+        My academic background taught me more than just how to code or build complex systems—it trained me to approach problems from multiple perspectives, including those of developers, managers, and end users. This well-rounded mindset continues to shape how I design and deliver scalable, user-centric solutions in my professional work.
+      </p>
 
       <a href="#contact" className="btn btn-primary"> Let us Talk!</a>
 

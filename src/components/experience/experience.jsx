@@ -16,6 +16,13 @@ const experience = () => {
              <article className="experience__details">
                <BsFillPatchCheckFill className="experience__details-icon"/>
                <div>
+                <h4>TypeScript</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+               </div>
+             </article>
+             <article className="experience__details">
+               <BsFillPatchCheckFill className="experience__details-icon"/>
+               <div>
                 <h4>Python</h4>
                 {/* <small className='text-light'>Experienced</small> */}
                </div>
@@ -24,13 +31,6 @@ const experience = () => {
                <BsFillPatchCheckFill className="experience__details-icon"/>
                <div>
                 <h4>Java</h4>
-                {/* <small className='text-light'>Experienced</small> */}
-               </div>
-             </article>
-             <article className="experience__details">
-               <BsFillPatchCheckFill className="experience__details-icon"/>
-               <div>
-                <h4>JavaScript</h4>
                 {/* <small className='text-light'>Experienced</small> */}
                </div>
              </article>
@@ -51,14 +51,14 @@ const experience = () => {
              <article className="experience__details">
                <BsFillPatchCheckFill className="experience__details-icon"/>
                <div>
-                <h4>Git</h4>
+                <h4>AWS Services</h4>
                 {/* <small className='text-light'>Experienced</small> */}
                </div>
              </article>
              <article className="experience__details">
                <BsFillPatchCheckFill className="experience__details-icon"/>
                <div>
-                <h4>Node.js</h4>
+                <h4>Restful API</h4>
                 {/* <small className='text-light'>Experienced</small> */}
                </div>
              </article>
@@ -72,7 +72,7 @@ const experience = () => {
              <article className="experience__details">
                <BsFillPatchCheckFill className="experience__details-icon"/>
                <div>
-                <h4>AWS</h4>
+                <h4>Git</h4>
                 {/* <small className='text-light'>Experienced</small> */}
                </div>
              </article>
@@ -86,7 +86,7 @@ const experience = () => {
              <article className="experience__details">
                <BsFillPatchCheckFill className="experience__details-icon"/>
                <div>
-                <h4>Restful API</h4>
+                <h4>Node.js</h4>
                 {/* <small className='text-light'>Experienced</small> */}
                </div>
              </article>
